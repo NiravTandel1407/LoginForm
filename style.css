@@ -45,7 +45,10 @@ body {
     padding: 0 10px;
     font-size: 15px;
 }
-
+.container form .form-control:focus{
+    outline:none;
+    border : 2px solid blue;
+}
 .container form .btn {
     margin-left: 50%;
     transform: translateX(-50%);
